@@ -172,9 +172,9 @@ footer {
   }
 
   .memory-game {
-    transform: translateY(-20%);
-    height: 490px;
-    width: 495px;
+    transform: translateY(-30%);
+    height: 480px;
+    width: 490px;
     margin: 0;
     display: flex;
     flex-wrap: wrap;
