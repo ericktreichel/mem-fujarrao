@@ -129,6 +129,21 @@ footer {
 }
 
 @media (max-width: 500px) {
+  body {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    background: linear-gradient(
+      -45deg,
+      rgb(16, 57, 70),
+      #1f2e4f,
+      #2e1c2b,
+      #612139
+    );
+    background-size: 400% 400%;
+    animation: backgroundTransition 12s ease-in-out infinite;
+  }
+
   h1 {
     font-size: 1.6rem;
     transform: translateY(60%);
@@ -149,10 +164,11 @@ footer {
   .refresh-button {
     font-size: 1.2rem;
     padding: 11px 16px;
+    transform: translateY(-220%);
   }
 
   .memory-game {
-    transform: translateY(-7%);
+    transform: translateY(-50%);
     height: 480px;
     width: 480px;
     margin: 0;
@@ -191,7 +207,7 @@ footer {
     text-align: center;
     color: rgb(194, 194, 194);
     position: absolute;
-    align-self: end;
+    align-self: flex-end;
     justify-self: center;
     margin-bottom: 12px;
   }
