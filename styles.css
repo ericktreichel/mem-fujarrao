@@ -147,7 +147,7 @@ footer {
 
   h1 {
     font-size: 1.4rem;
-    transform: translateY(60%);
+    /* transform: translateY(60%); */
     margin-top: 5px;
     display: -moz-inline-grid;
     justify-content: center;
@@ -165,11 +165,11 @@ footer {
   .refresh-button {
     font-size: 1.2rem;
     padding: 11px 16px;
-    transform: translateY(-220%);
+    /* transform: translateY(-220%); */
   }
 
   .memory-game {
-    transform: translateY(-50%);
+    /* transform: translateY(-50%); */
     height: 480px;
     width: 480px;
     margin: 0;
@@ -210,6 +210,7 @@ footer {
     position: absolute;
     align-self: flex-end;
     justify-self: center;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
+    transform: translateY(130px);
   }
 }
