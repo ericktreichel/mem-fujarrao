@@ -127,7 +127,7 @@ footer {
   }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 500px) {
   .refresh-button {
     font-size: 1rem;
     padding: 10px;
@@ -135,8 +135,8 @@ footer {
 
   .memory-game {
     transform: translateY(-7%);
-    height: 520px;
-    width: 520px;
+    height: 480px;
+    width: 480px;
     margin: 0;
     display: flex;
     flex-wrap: wrap;
