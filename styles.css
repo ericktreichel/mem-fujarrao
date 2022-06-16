@@ -135,12 +135,26 @@ footer {
 
   .memory-game {
     transform: translateY(-7%);
-    height: 500px;
-    width: 500px;
-    margin: auto;
+    height: 520px;
+    width: 520px;
+    margin: 0;
     display: flex;
     flex-wrap: wrap;
     perspective: 1000px;
+    justify-content: center;
+  }
+
+  .card {
+    height: calc(33.333% - 10px);
+    width: calc(25% - 0px);
+    margin: 4px;
+    position: relative;
+    box-shadow: 1px 1px 1px 1px rgba(1, 1, 1, 0.3);
+    cursor: pointer;
+    transform: scale(1);
+    transform-style: preserve-3d; /* não deixa o elemento achatado no plano */
+    transition: transform 1s;
+    border-radius: 10px;
   }
 
   .card-front,
