@@ -216,6 +216,6 @@ footer {
     justify-self: center;
     margin-bottom: 20px;
     /* transform: translateY(130px); */
-    grid-row: 4;
+    grid-row: 3;
   }
 }
