@@ -165,7 +165,7 @@ footer {
 
   .refresh-button {
     grid-row: 2;
-
+    margin-bottom: 20px;
     font-size: 1.2rem;
     padding: 11px 16px;
     transform: translateY(-40%);
@@ -180,7 +180,7 @@ footer {
     flex-wrap: wrap;
     perspective: 1000px;
     justify-content: center;
-    grid-row: 3;
+    grid-row: 4;
   }
 
   .card {
